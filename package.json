@@ -1,0 +1,24 @@
+{
+  "name": "cypress-simple-demo",
+  "version": "1.0.0",
+  "description": "Barebones Cypress example",
+  "main": "index.js",
+  "scripts": {
+    "test:watch": "cypress open",
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aulisius/cypress-simple-demo.git"
+  },
+  "author": "Faizaan",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/aulisius/cypress-simple-demo/issues"
+  },
+  "homepage": "https://github.com/aulisius/cypress-simple-demo#readme",
+  "devDependencies": {
+    "@cypress/snapshot": "^2.0.1",
+    "cypress": "^3.1.0"
+  }
+}
